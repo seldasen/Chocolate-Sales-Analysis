@@ -1,6 +1,6 @@
 
 Chocolate Sales.csv
-Hesap Tablosu
+
 how can produce hypotesis
 ChatGPT:
 To generate hypotheses from your Chocolate Sales dataset, follow these steps:

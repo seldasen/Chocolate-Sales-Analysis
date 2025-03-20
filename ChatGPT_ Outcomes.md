@@ -1,6 +1,6 @@
 
 Chocolate Sales.csv
-Hesap Tablosu
+
 how can produce hypotesis
 ChatGPT:
 To generate hypotheses from your Chocolate Sales dataset, follow these steps:
@@ -200,7 +200,7 @@ c. Feature Engineering:
 Extract Month & Year from Date to analyze trends.
 Create a Revenue per Box Shipped metric (Amount / Boxes Shipped).
 d. Data Aggregation & Summarization:
-Total sales per country, product, and salesperson.
+Total sales per country, product, and product category.
 Monthly and yearly sales trends.
 Profitability by product type (dark chocolate, milk chocolate, etc.).
 3. Load (L) - Storing Processed Data

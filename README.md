@@ -7,7 +7,20 @@ Advanced Chocolate Sales Analytics project is a comprehensive data analysis tool
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+
+Datasets are taken from Kaggle.
+
+https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales
+
+Columns & Description:
+
+Date-------------The transaction date of the chocolate sale.
+Product Name-----Name of the chocolate product sold.
+Category---------Type of chocolate (Dark, Milk, White).
+Quantity Sold----Number of chocolate units sold in the transaction.
+Revenue----------Total revenue generated from the sale.
+Customer Segment-Type of customer (Retail, Wholesale).
+Location---------Sales region or store location where the transaction took place.
 
 
 ## Business Requirements
@@ -87,21 +100,6 @@ Revenue Optimization Strategy – Recommendations for improving profitability.
 ## Development Roadmap
 * What challenges did you face, and what strategies were used to overcome these challenges?
 * What new skills or tools do you plan to learn next based on your project experience? 
-
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
 
 ## Main Data Analysis Libraries
 * Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.

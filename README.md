@@ -160,4 +160,6 @@ Tableau was chosen for deployment due to its powerful visualization capabilities
 ---
 <h2 style='color:#714737;'>Acknowledgements</h>
 
-Thanks to the team for their collaborative efforts in data cleaning, analysis, and visualization design. Special thanks to xAI for providing Grok 3, which significantly contributed to ideation, structuring, and enhancing the quality of this README.  
+_ Recording and screenshots taken from dashboards and jupyter notebook
+
+Thanks to the team for their collaborative efforts in data cleaning, analysis, and visualization design. Special thanks to AI for providing Team 3 which significantly contributed to ideation, structuring, and enhancing the quality of this README.  

@@ -4,23 +4,30 @@
 
 
 <h2 style='color:#714737;'>Chocolate Sales Analysis</h2>is a comprehensive data analysis project designed to explore, analyze, and visualize chocolate sales data across multiple countries. Built using Python and various data analysis libraries, this project provides insights into sales trends, product performance, and regional demand through intuitive visualizations and statistical analysis. The dataset is sourced from Kaggle (link provided below) and is of a reasonable size, well under the 100GB repository limit.
----
+
 
 <h2 style='color:#714737;'>Dataset Content</h2>
 The dataset used in this project is the **Chocolate Sales Dataset** from Kaggle:  
 [https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales](https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales)  
 
 It contains detailed records of chocolate sales transactions, including:  
+- **Dataset**: 1094 rows × 5 columns
 - **Amount**: Sales revenue in dollars  
 - **Boxes Shipped**: Number of chocolate boxes shipped per transaction  
 - **Country**: Six countries (Australia, Canada, India, New Zealand, UK, USA)  
 - **Product**: Specific chocolate products (e.g., Smooth Silky Salty, 50% Dark Bites)  
-- **Date**: Transaction dates spanning 2022 
+- **Date**: Transaction dates spanning from Jan - Aug 2022 
 - **Salesperson**: Names of salespeople (removed during cleaning)  
 The dataset is relatively clean with no missing, empty, or duplicate values, making it suitable for analysis after minor preprocessing. 
 
+**PowerBi Dasboard**
 
-# ![Chocolate photo](images/choco3.png)
+![PowerBi Dasboard](<Output/PowerBi Dashboard.png>)
+
+
+**Tableau Dashboard**
+
+![Tableau Dashboard](<Output/Tableau Dashboard.png>)
 
 <h2 style='color:#714737;'>Business Requirements</h2>
 
@@ -29,7 +36,10 @@ The dataset is relatively clean with no missing, empty, or duplicate values, mak
 3. **Analyze Efficiency**: Calculate revenue per box shipped to assess profitability across products and categories.  
 4. **Explore Trends**: Investigate sales trends over time, focusing on seasonality and holiday impacts.  
 5. **Visualize Insights**: Provide clear, actionable visualizations for stakeholders to understand key findings.
----
+
+<h2 style='color:#714737;'>Dashboard Users</h2>
+
+Marketing Professionals, Sales Managers, Product Managers, Retail Partners, Data Analysts,  Executives and Business Owners.
 
 
 **Business KPIs (Key Performance Indicators)**
@@ -83,7 +93,7 @@ Revenue Optimization Strategy – Recommendations for improving profitability.
 5. **Interpretation**: Summarized key findings and validated hypotheses.
 The data was managed using pandas for cleaning and analysis, ensuring consistency throughout the process. We chose these methodologies for their simplicity and effectiveness in handling structured data.
 
- <h2 style='color:#714737;'>Rationale for Mapping Business Requirements to Data Visualizations</h2>
+ <h2 style='color:#714737;'>Rationale for Mapping Business Requirements to Advance Data Visualizations</h2>
 
 - **Sales Distribution**: Tree map for percentage by country, bar chart for product category sales.  
   - *Rationale*: Highlights relative contributions clearly for stakeholders.  
@@ -113,13 +123,13 @@ The data was managed using pandas for cleaning and analysis, ensuring consistenc
 <h2 style='color:#714737;'>Dashboard Design</h2>
 
 ### Pages and Content
-1. **Home**: Summary statistics (average sales, boxes shipped), key findings text block.  
+1. **Main page**: Summary statistics (average sales, boxes shipped), key findings text block.  
 2. **Sales by Country**: Choropleth map, treemap, top 5 countries bar chart.  
-3. **Product Performance**: Bar chart (top 5 products), stacked bar (revenue per box).  
-4. **Trends**: Line chart (monthly sales), heatmap (sales by month/day).  
-**Communication**:  
+3. **Product Performance**: Bar charts (total revenue by product/product category), stacked bar (revenue per box).  
+4. **Trends**: Line chart (monthly sales).  
+5. **Communication**:  
 - **Technical Audience**: Detailed stats and correlation insights in tables.  
-- **Non-Technical Audience**: Simplified charts with annotations (e.g., "Australia leads with $1.14M"). 
+- **Non-Technical Audience**: Simplified charts with annotations (e.g., "Total Revenue by Country"). 
 
 <h2 style='color:#714737;'>Unfixed Bugs</h2>
 
@@ -129,18 +139,18 @@ The data was managed using pandas for cleaning and analysis, ensuring consistenc
 <h2 style='color:#714737;'>Development Roadmap</h2>
 
 - **Challenges**: Standardizing dates and handling weak correlations. Overcome by using pandas’ `to_datetime` and focusing on descriptive stats instead of predictive models.  
-- **Next Steps**: Learn advanced visualization tools (e.g., Tableau) and time series forecasting techniques.
+- **Next Steps**: Practice advanced visualization tools (e.g., Tableau) and learn time series sales forecasting techniques.
 ---
 
 <h2 style='color:#714737;'>Deployment:</h2>
 
-* Deployed with Tableau file Chocolate_sales_analysis.twbx in output folder.
+* Deployed with Tableau file Chocolate_sales_analysis.twbx and Chocolate Sales Analysis Dashboard.pbix in output folder.
 * Steps:
 1. Processed and cleaned the data using Python (pandas).
 2. Exported the cleaned dataset as a CSV file.
-3. Imported the CSV into Tableau Public.
+3. Imported the CSV into Tableau Public and PowerBi.
 4. Designed interactive dashboards with charts and filters as outlined in the Dashboard Design section.
-Tableau was chosen for deployment due to its powerful visualization capabilities and ability to share interactive dashboards with a broad audience.
+Initially Tableau was chosen for deployment due to its powerful map visualization capabilities and ability to share interactive dashboards with a broad audience but theb it was also created in PowerBi due to its advance filtering and interactive dashboarding.
 ---
 
 <h2 style='color:#714737;'> Main Data Analysis Libraries</h2>

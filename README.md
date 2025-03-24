@@ -162,4 +162,4 @@ Tableau was chosen for deployment due to its powerful visualization capabilities
 
 _ Recording and screenshots taken from dashboards and jupyter notebook
 
-Thanks to the team for their collaborative efforts in data cleaning, analysis, and visualization design. Special thanks to AI for providing Team 3 which significantly contributed to ideation, structuring, and enhancing the quality of this README.  
+Thanks to the team for their collaborative efforts in data cleaning, analysis, and visualization design. Special thanks to AI for providing Team 3 with ideas which significantly contributed to ideation, structuring, and enhancing the quality of this README.  

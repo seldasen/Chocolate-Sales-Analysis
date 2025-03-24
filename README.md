@@ -67,13 +67,10 @@ Revenue Optimization Strategy – Recommendations for improving profitability.
    - **Validation**: Compare total sales and boxes shipped per country using choropleth maps and bubble charts.  
    - **Key Insight**: Australia leads with $1,137,367, but correlation between sales and boxes shipped is weak (-0.0188).  
 
-3. **H3: Premium chocolate products generate higher revenue per box shipped.**
+3. **H3: Certain chocolate product categories/products generate higher revenue per box shipped.**
    - **Validation**: Calculate revenue per box shipped and visualize with box plots and stacked bar charts.  
    - **Key Insight**: Premium products like Smooth Silky Salty show higher efficiency.  
 
-4. **H4: Some chocolate products drive revenue more efficiently than others, making them more profitable.**  
-   - **Validation**: Assess sales and revenue per box shipped per product using bar and bubble charts.  
-   - **Key Insight**: Smooth Silky Salty ($349,692) outperforms others in revenue and efficiency.
 ---
 
 <h2 style='color:#714737;'>Project Plan</h2>
@@ -144,7 +141,7 @@ The data was managed using pandas for cleaning and analysis, ensuring consistenc
 
 <h2 style='color:#714737;'>Deployment:</h2>
 
-* Deployed with Tableau file Chocolate_sales_analysis.twbx and Chocolate Sales Analysis Dashboard.pbix in output folder.
+* Deployed with Tableau file Chocolate_sales_analysis.twbx and Chocolate Sales Analysis Dashboard.pbix (prototype PowerBi dashboard can be seen with Chocolate Sales Dashboard Prototype.pbix also) in output folder.
 * Steps:
 1. Processed and cleaned the data using Python (pandas).
 2. Exported the cleaned dataset as a CSV file.
@@ -167,9 +164,8 @@ Initially Tableau was chosen for deployment due to its powerful map visualizatio
 - Visualization ideas inspired by Seaborn documentation.  
 ### Media
 - Icons for dashboard footer from [Font Awesome](https://fontawesome.com/).  
+- Recording and screenshots taken from dashboards and jupyter notebook
 ---
 <h2 style='color:#714737;'>Acknowledgements</h>
-
-_ Recording and screenshots taken from dashboards and jupyter notebook
 
 Thanks to the team for their collaborative efforts in data cleaning, analysis, and visualization design. Special thanks to AI for providing Team 3 with ideas which significantly contributed to ideation, structuring, and enhancing the quality of this README.  

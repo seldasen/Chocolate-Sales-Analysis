@@ -1,9 +1,8 @@
 
 # CHOCOLATE SALES ANALYSIS
 
-Advanced Chocolate Sales Analytics project is a comprehensive data analysis tool designed to streamline the exploration, analysis, and visualization of chocolate sales data. Built for business intelligence and decision-making, this tool enables users to uncover sales trends, forecast demand, and optimize pricing strategies.
-
-# ![Chocolate photo](images/choco3.png)
+Chocolate Sales Analytics project is a comprehensive data analysis tool designed to streamline the exploration, analysis, and visualization of chocolate sales data. Built for business intelligence and decision-making, this tool enables users to uncover sales trends, understand factors affecting chocolate sales and optimize business strategies for increasing revenue.
+# ![Chocolate dashboard]()
 
 
 ## Dataset Content
@@ -14,13 +13,11 @@ https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales
 
 Columns & Description:
 
-Date-------------The transaction date of the chocolate sale.
-Product Name-----Name of the chocolate product sold.
-Category---------Type of chocolate (Dark, Milk, White).
-Quantity Sold----Number of chocolate units sold in the transaction.
-Revenue----------Total revenue generated from the sale.
-Customer Segment-Type of customer (Retail, Wholesale).
-Location---------Sales region or store location where the transaction took place.
+- Date-------------The transaction date of the chocolate sale.
+- Product Name-----Name of the chocolate product sold.
+- Revenue Amount ----------Total revenue generated from the sale.
+- Boxes Shipped ----------Number of boxes shipped to a country.
+- Country ---------Sales region or store location where the transaction took place.
 
 
 ## Business Requirements
@@ -35,8 +32,6 @@ The goal of this analysis is to understand factors affecting chocolate sales and
 
 What factors influence chocolate sales the most? (e.g., seasonality, region, product type)
 Which products generate the highest revenue per sale?
-Do certain salespeople outperform others, and why?
-How do discounts or bulk shipments affect sales?
 Are there regional differences in chocolate sales?
 
 3. Business KPIs (Key Performance Indicators)
@@ -50,7 +45,7 @@ Salesperson Performance – Evaluates top-performing employees.
 
 4. Data Requirements
 
-Sales Data (Salesperson, Country, Product, Date, Amount, Boxes Shipped).
+Sales Data (Country, Product, Date, Amount, Boxes Shipped).
 Timeframe Consideration – Seasonality trends based on monthly/quarterly data.
 Customer Demographics (if available) – To analyze purchasing behavior.
 

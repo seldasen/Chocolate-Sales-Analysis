@@ -1,52 +1,42 @@
 
 # CHOCOLATE SALES ANALYSIS
 
-Advanced Chocolate Sales Analytics project is a comprehensive data analysis tool designed to streamline the exploration, analysis, and visualization of chocolate sales data. Built for business intelligence and decision-making, this tool enables users to uncover sales trends, forecast demand, and optimize pricing strategies.
+**Chocolate Sales Analysis** is a comprehensive data analysis project designed to explore, analyze, and visualize chocolate sales data across multiple countries. Built using Python and various data analysis libraries, this project provides insights into sales trends, product performance, and regional demand through intuitive visualizations and statistical analysis. The dataset is sourced from Kaggle (link provided below) and is of a reasonable size, well under the 100GB repository limit.
+---
+
+## Dataset Content
+The dataset used in this project is the **Chocolate Sales Dataset** from Kaggle:  
+[https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales](https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales)  
+
+It contains detailed records of chocolate sales transactions, including:  
+- **Amount**: Sales revenue in dollars  
+- **Boxes Shipped**: Number of chocolate boxes shipped per transaction  
+- **Country**: Six countries (Australia, Canada, India, New Zealand, UK, USA)  
+- **Product**: Specific chocolate products (e.g., Smooth Silky Salty, 50% Dark Bites)  
+- **Date**: Transaction dates spanning 2022 
+- **Salesperson**: Names of salespeople (removed during cleaning)  
+The dataset is relatively clean with no missing, empty, or duplicate values, making it suitable for analysis after minor preprocessing. 
+
 
 # ![Chocolate photo](images/choco3.png)
 
-
-## Dataset Content
-
-Datasets are taken from Kaggle.
-
-https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales
-
-Columns & Description:
-
-Date-------------The transaction date of the chocolate sale.
-Product Name-----Name of the chocolate product sold.
-Category---------Type of chocolate (Dark, Milk, White).
-Quantity Sold----Number of chocolate units sold in the transaction.
-Revenue----------Total revenue generated from the sale.
-Customer Segment-Type of customer (Retail, Wholesale).
-Location---------Sales region or store location where the transaction took place.
-
-
 ## Business Requirements
 
-Business Requirements for Chocolate Sales Analysis
+1. **Understand Sales Distribution**: Identify total sales and percentage contributions by country and product category.  
+2. **Identify Top Performers**: Determine the top-selling products and countries driving revenue.  
+3. **Analyze Efficiency**: Calculate revenue per box shipped to assess profitability across products and categories.  
+4. **Explore Trends**: Investigate sales trends over time, focusing on seasonality and holiday impacts.  
+5. **Visualize Insights**: Provide clear, actionable visualizations for stakeholders to understand key findings.
+---
 
-1. Objective
 
-The goal of this analysis is to understand factors affecting chocolate sales and optimize business strategies for increasing revenue, improving sales efficiency, and enhancing customer targeting.
+**Business KPIs (Key Performance Indicators)**
 
-2. Key Business Questions
-
-What factors influence chocolate sales the most? (e.g., seasonality, region, product type)
-Which products generate the highest revenue per sale?
-Do certain salespeople outperform others, and why?
-How do discounts or bulk shipments affect sales?
-Are there regional differences in chocolate sales?
-
-3. Business KPIs (Key Performance Indicators)
-
-Total Sales Revenue – Measure of overall performance.
+• Total Sales Revenue– Measure of overall performance.
 Average Revenue per Box Shipped – Indicates profitability per shipment.
-Sales Growth Over Time – Month-over-month or year-over-year comparison.
-Sales Performance by Country – Identifies high-performing regions.
-Product Performance Analysis – Determines best-selling and most profitable products.
-Salesperson Performance – Evaluates top-performing employees.
+• Sales Growth Over Time – Month-over-month or year-over-year comparison.
+• Sales Performance by Country – Identifies high-performing regions.
+• Product Performance Analysis – Determines best-selling and most profitable products.
 
 4. Data Requirements
 
